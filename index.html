@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="add-form">
+        <div class="container">
+            <div class="generator">
+                <input class="password-input" type="text"  value="" placeholder="" required>
+                <label>LENGTH: <output class="pixels">12</output>
+                    <div class="range">4<input class="size-setting" type="range" min="4" max="32" step="1" value="12">32</div>
+                  </label>
+
+                  <div>SETTINGS</div>
+
+                  <div class="Include">
+                    <span>Include Uppercase</span> 
+                     <div> <label class="checkbox-ios">
+                    <input type="checkbox" class="Include-Uppercase">
+                    <span class="checkbox-ios-switch"></span>
+                </label></div></div>
+                    
+                <div class="Include">
+                    <span>Include Lowercase</span> 
+                    <div><label class="checkbox-ios">
+                    <input type="checkbox" class="Include-Lowercase" checked>
+                    <span class="checkbox-ios-switch"></span>
+                </label></div></div>
+                 
+                <div class="Include">
+                    <span>Include Numbers</span> 
+                    <div><label class="checkbox-ios">
+                    <input type="checkbox" class="Include-Numbers">
+                    <span class="checkbox-ios-switch"></span>
+                </label></div></div>
+                 
+                <div class="Include">
+                    <span>Include Symbols</span> 
+                    <div><label class="checkbox-ios">
+                    <input type="checkbox" class="Include-Symbols" checked>
+                    <span class="checkbox-ios-switch"></span>
+                </label></div></div>
+        <button class="generator-button" type="submit">GENERATE PASSWORD</button>
+        </div>
+        
+        </div>
+    </div>
+
+   
+      <script src="alert.js"></script>
+      
+    
+</body>
+</html>
